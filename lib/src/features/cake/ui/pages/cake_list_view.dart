@@ -8,8 +8,6 @@ import 'package:go_router/go_router.dart';
 
 /// Displays a list of cakes.
 /// Hmmm Stateful Widget is used here, but it could be a StatelessWidget?
-///
-/// Leaving this as Stateful so we don't call the loadcakes every time we rebuild
 class CakeListView extends StatelessWidget {
   const CakeListView({
     super.key,
