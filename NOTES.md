@@ -42,4 +42,4 @@ Notes:
 Future work / recommendations:
 - create an api_service so if we have multiple repositories we can abstract out common logic e.g. auth headers / token refresh 
 - add a local_storage_service maybe with the hive or shared_preferences packages so that each bloc / cubit can handle their own offline functionlity with caching
-- use freezed package
+- use freezed package to generate common methods e.g fromJson / toJson as well as for the CakeState class so we can use the factory pattern.

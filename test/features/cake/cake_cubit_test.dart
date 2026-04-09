@@ -2,6 +2,7 @@ import 'package:bloc_test/bloc_test.dart';
 import 'package:cake_it_app/src/features/cake/data/cake.dart';
 import 'package:cake_it_app/src/features/cake/data/cake_repository.dart';
 import 'package:cake_it_app/src/features/cake/ui/bloc/cake_cubit.dart';
+import 'package:cake_it_app/src/features/cake/ui/bloc/cake_states.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 

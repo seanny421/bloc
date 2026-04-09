@@ -2,6 +2,7 @@ import 'package:bloc_test/bloc_test.dart';
 import 'package:cake_it_app/src/core/router/routes.dart';
 import 'package:cake_it_app/src/features/cake/data/cake.dart';
 import 'package:cake_it_app/src/features/cake/ui/bloc/cake_cubit.dart';
+import 'package:cake_it_app/src/features/cake/ui/bloc/cake_states.dart';
 import 'package:cake_it_app/src/features/cake/ui/pages/cake_details_view.dart';
 import 'package:cake_it_app/src/features/cake/ui/pages/cake_list_view.dart';
 import 'package:cake_it_app/src/features/cake/ui/widgets/cake_image.dart';
@@ -163,7 +164,7 @@ void main() {
       image: '',
     );
 
-    Widget buildDetail() => MaterialApp(
+    Widget buildDetail() => const MaterialApp(
           home: CakeDetailsView(cake: detailCake),
         );
 

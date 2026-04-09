@@ -1,6 +1,4 @@
 import 'package:cake_it_app/src/features/cake/ui/bloc/cake_cubit.dart';
-import 'package:cake_it_app/src/features/cake/ui/pages/cake_details_view.dart';
-import 'package:cake_it_app/src/features/cake/ui/pages/cake_list_view.dart';
 import 'package:cake_it_app/src/features/cake/data/cake_repository.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
