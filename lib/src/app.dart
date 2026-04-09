@@ -7,7 +7,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:go_router/go_router.dart';
 
-import 'localization/app_localizations.dart';
+import 'core/localization/app_localizations.dart';
 import 'features/settings/data/settings_controller.dart';
 
 /// The Widget that configures your application.

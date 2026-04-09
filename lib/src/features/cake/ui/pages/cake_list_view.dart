@@ -1,5 +1,5 @@
 import 'package:cake_it_app/src/features/cake/ui/widgets/cake_image.dart';
-import 'package:cake_it_app/src/router/routes.dart';
+import 'package:cake_it_app/src/core/router/routes.dart';
 import 'package:cake_it_app/src/features/cake/data/cake.dart';
 import 'package:cake_it_app/src/features/cake/ui/bloc/cake_cubit.dart';
 import 'package:flutter/material.dart';
